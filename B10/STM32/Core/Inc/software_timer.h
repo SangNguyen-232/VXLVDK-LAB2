@@ -1,0 +1,23 @@
+/*
+ * software_timer.h
+ *
+ *  Created on: Oct 8, 2025
+ *      Author: Admin
+ */
+
+#ifndef INC_SOFTWARE_TIMER_H_
+#define INC_SOFTWARE_TIMER_H_
+
+extern int t1_flag;
+extern int t2_flag;
+extern int t3_flag;
+extern int t4_flag;
+
+void setTimer1(int duration_ms);
+void setTimer2(int duration_ms);
+void setTimer3(int duration_ms);
+void setTimer4(int duration_ms);
+
+void updateTimers(void);
+
+#endif /* INC_SOFTWARE_TIMER_H_ */
